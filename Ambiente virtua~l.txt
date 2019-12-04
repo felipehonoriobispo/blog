@@ -1,0 +1,38 @@
+-tornar a pasta o nosso ambiente
+
+python 		-m 		venv			env
+Linguagem  	Criar		Ambiente Virtual	nome da pasta
+
+
+- para ativar
+
+source env/scripts/activate
+
+
+
+- instalar biblioteca
+
+pip install -r requeriments.txt
+
+pip install django
+
+pip uninstall 
+
+
+- como saber se esta instalado
+
+pip freeze
+
+
+
+- usar os comandos do django - no ambiente ativado
+
+
+django-admin startproject blog .                          (nomeDoProjeto)
+
+
+- para rodar o projeto com o django
+
+
+python manage.py runserver
+
